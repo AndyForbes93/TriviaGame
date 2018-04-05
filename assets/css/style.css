@@ -1,0 +1,22 @@
+.questions {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+
+.trivia_answers {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+}
+
+.answers:hover {
+    background-color: yellow;
+}
+body{
+    background-color: aquamarine;
+}
+.page-header{
+    background-color: beige;
+    padding-top:30px;
+    margin-top:0px;
+    font-weight: bolder;
+}

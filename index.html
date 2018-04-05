@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hockey Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <div class="page-header">
+        <h1>Hockey Trivia Game</h1>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <!--column for the question to show up in-->
+            <div class="col-md-10 questions"><h1>Hockey Trivia Quiz! See how many you can get right!</h1></div>
+            <!--column for the timer to display-->
+            <div class="col-md-2 timer">
+                <button type="button" class="btn btn-info" id="start"><h2>Start Quiz</h2></button>
+            </div>
+        </div>
+        <div class="trivia_answers text-center">
+            <!-- theres a row for each on of the answers only one will be correct on click-->
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 answer_1 answers"><h2>Click the start button to begin! Remeber you only have 30 seconds to get the right answer.</h2></div>
+                <div class="col-md-2"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 answer_2 answers"></div>
+                <div class="col-md-2"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 answer_3 answers"></div>
+                <div class="col-md-2"></div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 answer_4 answers"></div>
+                <div class="col-md-2"></div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+</body>
+
+</html>
